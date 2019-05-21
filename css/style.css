@@ -1,0 +1,29 @@
+/*
+// ピンク #ff89c7
+// 水色 #7ecef4
+// 黄色 #fff799
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Asap:700');
+html,
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Asap', "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+    background-color: #fefefe;
+    scroll-behavior: smooth;
+}
+
+h1 {
+    color: #333;
+    margin-top: 0;
+    font-size: 3rem;
+}
+
+h2 {
+    color: #333;
+    font-size: 2.75rem;
+}
+
+.line {}

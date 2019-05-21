@@ -1,0 +1,27 @@
+.top__title {
+    border: 3px solid #fff799;
+    margin: 4rem;
+    height: 80vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.top__title p {
+    color: #ff89c7;
+    margin-bottom: 0;
+    font-size: 2rem;
+}
+
+@media screen(max-width:425px) {
+    .top__title {
+        margin: 3rem;
+    }
+}
