@@ -36,6 +36,7 @@
 
 #works {
     padding: 0 2rem;
+    margin-bottom: 2rem;
 }
 
 .works__contents {
@@ -50,7 +51,7 @@
 .works__contents--column {
     border-radius: 4px;
     width: 20rem;
-    margin: 0.5rem 0.5rem 3rem;
+    margin: 0.5rem 0.5rem 0.5rem;
     text-align: left;
     -webkit-box-shadow: 1px 2px 6px #ccc;
     box-shadow: 1px 2px 6px #ccc;
@@ -115,7 +116,7 @@
     display: block;
     padding: 1rem;
     width: 24vw;
-    margin: 0 auto;
+    margin: 1rem auto 0;
 }
 
 .works__more:hover {
