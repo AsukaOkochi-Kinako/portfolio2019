@@ -27,7 +27,6 @@
     margin-right: 0.5rem;
 }
 
-/*
 .works__back:hover,
 .works__back:active {
     background-color: #ff89c7;
@@ -35,7 +34,6 @@
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
 }
-*/
 
 #works {
     padding: 0 2rem;
