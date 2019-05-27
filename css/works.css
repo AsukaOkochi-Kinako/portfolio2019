@@ -27,7 +27,8 @@
     margin-right: 0.5rem;
 }
 
-.works__back:hover {
+.works__back:hover,
+.works__back:active {
     background-color: #ff89c7;
     color: #fff;
     -webkit-transition-duration: 0.3s;
@@ -61,7 +62,8 @@
     transition-duration: 0.3s;
 }
 
-.works__contents--column:hover {
+.works__contents--column:hover,
+.works__contents--column:active {
     opacity: 0.6;
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
