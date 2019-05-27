@@ -26,4 +26,6 @@ h2 {
     font-size: 2.75rem;
 }
 
-.line {}
+a:hover {
+    cursor: pointer;
+}
