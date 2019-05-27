@@ -1,7 +1,18 @@
+canvas {
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    position: absolute !important;
+}
+
+#top {
+    z-index: 1;
+}
+
 .top__title {
     border: 3px solid #fff799;
-    margin: 4rem;
     height: 80vh;
+    margin: 4rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -20,8 +31,17 @@
     font-size: 2rem;
 }
 
-@media screen(max-width:425px) {
+@media (max-width:425px) {
+    #top {
+        width: 80vw;
+        margin: 2rem auto;
+        margin-bottom: 7.5rem;
+    }
     .top__title {
-        margin: 3rem;
+        margin: 0 auto;
+        width: 100%;
+    }
+    #top h1 {
+        padding: 0 1rem;
     }
 }

@@ -1,81 +1,137 @@
-
 #profile {
-  padding:3rem;
+    width: 80vw;
+    margin: 5rem auto;
+}
+
+#profile h3 {
+    font-size: 2rem;
+    margin: 1rem auto;
+}
+
+#profile img {
+    width: 15rem;
 }
 
 .profile__txt {
-  font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
-  word-break: keep-all;
-  width: 80vw;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+    word-break: keep-all;
+    width: 80vw;
+    margin: 1rem auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
 }
 
 .profile__txt--me {
-  font-size: 1rem;
-  font-weight: lighter;
+    font-size: 1rem;
+    font-weight: lighter;
+    overflow-wrap: break-word;
 }
 
 .profile__txt--skill {
-  font-size: 0.75rem;
-  color: #aaa;
+    font-size: 0.75rem;
+    color: #aaa;
+    word-wrap: break-word;
 }
 
+
 .profile__sns {
-  width: 70%;
-  display: flex;
-  justify-content: space-around;
-  margin: 0 auto;
+    width: 70%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin: 2rem auto 0;
 }
 
 .profile__sns a {
-  text-decoration: none;
+    text-decoration: none;
     position: relative;
     overflow: hidden;
 }
 
-.ripple {
-  position: relative;
-  overflow: hidden;
-}
-
-.ripple::after{
- content: "";
- position: absolute;
- top: 50%;
- left: 50%;
- transform: translate(-50%, -50%);
- width: 200%;
- height: 200%;
- border-radius: 50%;
- opacity: 0;
- background-color: rgba(250,250,250, 0.7);
- transition: opacity 1s, width 1s, height 1s;
-}
-
-.ripple:active::after {
- content: "";
- width: 0;
- height: 0;
- opacity: 1;
- transition: opacity 0s, width 0s, height 0s;
+.profile__sns a i:hover {
+    opacity: 0.5;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
 }
 
 .profile__sns a i {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  width: 10rem;
-  height: 10rem;
-  font-size: 6rem;
-  color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+    font-size: 6rem;
+    color: #fff;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
 }
 
 .fa-twitter {
-  background-color: #1DA1F2;
+    background-color: #1DA1F2;
 }
+
 .fa-facebook-f {
-  background-color: #3C5A99;
+    background-color: #3C5A99;
 }
+
 .fa-github {
-  background-color: #333;
+    background-color: #333;
+}
+
+@media (max-width:725px) {
+    .profile__sns {
+        width: 80vw;
+    }
+}
+
+@media (max-width:425px) {
+    #profile {
+        margin: 1rem auto 3rem;
+    }
+
+    .profile__txt--me {
+        font-size: 0.9rem;
+    }
+    #profile img {
+        width: 80vw;
+    }
+
+    .profile__sns {
+        margin-top: 0rem;
+    }
+
+    .profile__sns a {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .profile__sns a i {
+        width: 5.75rem;
+        height: 5.75rem;
+        font-size: 3rem;
+    }
+
+    .profile__txt--skill {
+        margin-top: 1rem;
+        font-size: 0.9rem;
+    }
 }

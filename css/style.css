@@ -7,11 +7,11 @@
 @import url('https://fonts.googleapis.com/css?family=Asap:700');
 html,
 body {
+    width: 100vw;
     margin: 0;
     padding: 0;
     text-align: center;
     font-family: 'Asap', "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
-    background-color: #fefefe;
     scroll-behavior: smooth;
 }
 

@@ -10,13 +10,15 @@
     <link rel="stylesheet" href="/css/works.css">
     <link rel="stylesheet" href="/css/profile.css">
     <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.min.js"></script>
 </head>
 
 <body>
     <div id="top">
         <div class="top__title">
             <p> PORTFOLIO </p>
-            <h1> OKOCHIASUKA</h1>
+            <h1> OKOCHI ASUKA</h1>
         </div>
     </div>
     <div id="works">
@@ -25,29 +27,31 @@
             <a class="works__contents--column" href="#">
                 <div class="works__contents--img"> </div>
                 <div class="works__contents--txt">
-                    <h3>ほげほげのチラシ</h3>
-                    <span> あのイーハトーヴォのすきとおった風、夏でも底に冷たさをもつ青いそら、うつくしい森で飾られたモリーオ市、郊外のぎらぎらひかる草の波。</span>
+                    <h3>ゆでたまごタイマー</h3>
+                    <span class="works__contents--about">料理初心者でも簡単にゆでたまごが作れるタイマーのデザインをしました。ゆでている途中でたまごの状態を確認できることとシンプルでわかりやすいUIが特徴です。</span>
                     <span class="works__contents--more">MORE</span>
                 </div>
             </a>
             <a class="works__contents--column" href="#">
                 <div class="works__contents--img"> </div>
                 <div class="works__contents--txt">
-                    <h3>ほげほげのチラシ</h3>
-                    <span> あのイーハトーヴォのすきとおった風、夏でも底に冷たさをもつ青いそら、うつくしい森で飾られたモリーオ市、郊外のぎらぎらひかる草の波。</span>
+                    <h3>ポートフォリオサイト</h3>
+                    <span class="works__contents--about">このポートフォリオサイトです。私はよく「ふわふわしてるね」と言われるので、パステルカラーとふわふわのモチーフを中心に作りました。</span>
                     <span class="works__contents--more">MORE</span>
                 </div>
             </a>
             <a class="works__contents--column" href="#">
-                <div class="works__contents--img"> </div>
+                <div class="works__contents--img">
+                    <img src="imgs/create/interactive_nail.gif" alt="IntractiveNail">
+                </div>
                 <div class="works__contents--txt">
-                    <h3>ほげほげのチラシ</h3>
-                    <span> あのイーハトーヴォのすきとおった風、夏でも底に冷たさをもつ青いそら、うつくしい森で飾られたモリーオ市、郊外のぎらぎらひかる草の波。</span>
+                    <h3>InteractiveNail</h3>
+                    <span class="works__contents--about">カーソル位置によって背景色と爪の色が変わるコンテンツです。インタラクティブで楽しいコンテンツを作りたいという思いとたくさんの色のネイルを試してみたいという気持ちから作った作品です。</span>
                     <span class="works__contents--more">MORE</span>
                 </div>
             </a>
         </div>
-        <a class="works__more" href="#">VIEWALL</a>
+        <a class="works__more" href="#">VIEW ALL</a>
     </div>
     <div id="profile">
         <h2> PROFILE </h2>
@@ -55,20 +59,24 @@
         <div class="profile__img">
             <div class="profile__img--photo"><img src="/imgs/prof.png" alt="(^_^)"></div>
         </div>
+        <h3>OKOCHI ASUKA</h3>
         <div class="profile__txt">
-            <h3>OKOCHI ASUKA</h3>
             <span class="profile__txt--me">
-            愛知工業大学3年。名古屋でデザイナーをやっている学生。WEBのフロントもたまに触る。Adobeとタピオカとねこが大好き。名古屋を盛り上げるIT系の学生団体の運営をしたり、中高生にプログラミングを教えたりしています。</span>
+                愛知工業大学3年。名古屋でデザイナーをやっている学生。WEBのフロントもたまに触る。Adobeとタピオカとねこが大好き。名古屋を盛り上げるIT系の学生団体の運営をしたり、中高生にプログラミングを教えたりしています。
+            </span>
             <span class="profile__txt--skill">
-                HTML&amp;CSS/JavaScript/UIDesign/UXDesign/illustrator/photoshop/C/Java/Ruby/Sinatra</span>
+                HTML&amp;CSS / JavaScript / UIDesign / UXDesign / illustrator / photoshop / C / Java / Ruby / Sinatra
+            </span>
         </div>
         <div class="profile__sns">
-            <a target="_blank" class="ripple" href="https://twitter.com/AsukaOkochi">
-            <i class="fabfa-twitter"></i></a>
-            <a target="_blank" class="ripple" href="https://www.facebook.com/asukaaaaaaaa"><i class="fabfa-facebook-f"></i></a>
-            <a target="_blank" class="ripple" href="https://github.com/asukaokochi/"><i class="fabfa-github"></i></a>
+            <a target="_blank" href="https://twitter.com/AsukaOkochi"><i class="fab fa-twitter"></i></a>
+            <a target="_blank" href="https://www.facebook.com/asukaaaaaaaa"><i class="fab fa-facebook-f"></i></a>
+            <a target="_blank" href="https://github.com/asukaokochi/"><i class="fab fa-github"></i></a>
         </div>
     </div>
     <footer>2019 &copy; Okochi Asuka</footer>
+    <script src="bubbly-bg.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
