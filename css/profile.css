@@ -12,6 +12,17 @@
     width: 15rem;
 }
 
+
+.profile__txt--me a {
+    color: #ff89c7;
+    text-decoration: none;
+}
+
+.profile__txt--me a:hover {
+    text-decoration: underline;
+}
+
+
 .profile__txt {
     font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
     word-break: keep-all;
