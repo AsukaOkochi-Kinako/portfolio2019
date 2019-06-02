@@ -60,7 +60,15 @@
     text-decoration: none;
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
-    height: 27rem;
+    height: 26.75rem;
+}
+
+.works__contents--column:hover {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    border: 3px solid #ff89c7;
 }
 
 .works__contents--img img {
