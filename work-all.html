@@ -7,9 +7,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/top.css">
     <link rel="stylesheet" href="/css/works.css">
-    <link rel="stylesheet" href="/css/profile.css">
     <link rel="stylesheet" href="/css/footer.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="icon" type="image/x-icon" href="/imgs/favicon.ico">
@@ -22,6 +20,20 @@
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@asukaokochi" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122093800-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-122093800-3');
+
+    </script>
+
 </head>
 
 <body>
@@ -29,125 +41,151 @@
         <a href="index.html" class="works__back"><i class="fas fa-caret-left"></i> TOPへ戻る</a>
         <h2> WORKS </h2>
         <div class="works__contents">
-            <div class="works__contents--column">
-                <div class="works__contents--img"><img src="imgs/create/boiled_egg.png" alt="ゆでたまごタイマー"></div>
-                <div class="works__contents--txt">
-                    <h3>ゆでたまごタイマー</h3>
-                    <span class="works__contents--about">料理初心者でも簡単にゆでたまごが作れるタイマーのデザインをしました。ゆでている途中でたまごの状態を確認できることとシンプルでわかりやすいUIが特徴です。<br><a href="https://xd.adobe.com/view/7f7807a5-b173-4cf1-43d3-a7f5c7417973-0949/" target="_blank">プロトタイプ</a></span>
-                    <!--                    <span class="works__contents--more">MORE</span>-->
+            <a href="https://xd.adobe.com/view/7f7807a5-b173-4cf1-43d3-a7f5c7417973-0949/" class="works__contents--link" target="_blank">
+                <div class="works__contents--column">
+                    <div class="works__contents--img"><img src="imgs/create/boiled_egg.png" alt="ゆでたまごタイマー"></div>
+                    <div class="works__contents--txt">
+                        <h3>ゆでたまごタイマー</h3>
+                        <span class="works__contents--about">料理初心者でも簡単にゆでたまごが作れるタイマーのデザインをしました。ゆでている途中でたまごの状態を確認できることとシンプルでわかりやすいUIが特徴です。</span>
+                        <span class="works__contents--more">MORE</span>
+                    </div>
                 </div>
-            </div>
-            <div class="works__contents--column">
-                <div class="works__contents--img">
-                    <a href="index.html" target="_blank">
-                    <img src="imgs/create/portfolio2019.png" alt="ポートフォリオサイト">
-                    </a>
+            </a>
+            <a href="index.html" class="works__contents--link" target="_blank">
+                <div class="works__contents--column">
+                    <div class="works__contents--img">
+                        <img src="imgs/create/portfolio2019.png" alt="ポートフォリオサイト">
+                    </div>
+                    <div class="works__contents--txt">
+                        <h3>ポートフォリオサイト</h3>
+                        <span class="works__contents--about">このポートフォリオサイトです。私はよく「ふわふわしてるね」と言われるので、パステルカラーとふわふわのモチーフを中心に作り、私らしさを出しました。</span>
+                        <span class="works__contents--more">MORE</span>
+                    </div>
                 </div>
-                <div class="works__contents--txt">
-                    <h3>ポートフォリオサイト</h3>
-                    <span class="works__contents--about">このポートフォリオサイトです。私はよく「ふわふわしてるね」と言われるので、パステルカラーとふわふわのモチーフを中心に作り、私らしさを出しました。<br><a href="https://www.pinterest.jp/pin/668784613395412668/" target="_blank">デザインの初案</a> / <a href="https://github.com/AsukaOkochi-Kinako/portfolio2019" target="_blank">Github</a></span>
+            </a>
+            <a href="https://interactive-nail.netlify.com/" class="works__contents--link" target="_blank">
+                <div class="works__contents--column">
+                    <div class="works__contents--img">
+                        <img src="imgs/create/interactivenail.gif" alt="IntractiveNail">
+                    </div>
+                    <div class="works__contents--txt">
+                        <h3>InteractiveNail　</h3>
+                        <span class="works__contents--about">カーソル位置によって背景色と爪の色が変わるコンテンツです。インタラクティブで楽しいコンテンツで、いろんな色のネイルを試してみたいという気持ちから作った作品です。</span>
+                        <span class="works__contents--more">MORE</span>
+                    </div>
                 </div>
-            </div>
-
-            <div class="works__contents--column">
-                <div class="works__contents--img">
-                    <a href="https://interactive-nail.netlify.com/" target="_blank">
-                    <img src="imgs/create/interactivenail.gif" alt="IntractiveNail">
-                    </a>
-                </div>
-                <div class="works__contents--txt">
-                    <h3>InteractiveNail</h3>
-                    <span class="works__contents--about">カーソル位置によって背景色と爪の色が変わるコンテンツです。インタラクティブで楽しいコンテンツを作りたいという思いとたくさんの色のネイルを試してみたいという気持ちから作った作品です。<br><a href="https://interactive-nail.netlify.com/" target="_blank">実際のサイト</a> / <a href="https://github.com/AsukaOkochi-Kinako/interactive_nail" target="_blank">Github</a></span>
-                </div>
-            </div>
+            </a>
         </div>
         <div class="works__contents">
-            <div class="works__contents--column">
-                <div class="works__contents--img">
-                    <img src="imgs/create/character_illust.png" alt="女の子のイラストアイコン">
+            <a href="#" class="works__contents--link" target="_blank">
+                <div class="works__contents--column">
+                    <div class="works__contents--img">
+                        <img src="imgs/create/character_illust.png" alt="女の子のイラストアイコン">
+                    </div>
+                    <div class="works__contents--txt">
+                        <h3>女の子のイラストアイコン</h3>
+                        <span class="works__contents--about">Illustratorで作成した女の子のイラストアイコンです。シンプルなパーツでも喜怒哀楽の表情が伝わるようにした部分がポイントです。</span>
+                        <span class="works__contents--more">MORE</span>
+                    </div>
                 </div>
-                <div class="works__contents--txt">
-                    <h3>女の子のイラストアイコン</h3>
-                    <span class="works__contents--about">Illustratorで作成した女の子のイラストアイコンです。シンプルなパーツでも喜怒哀楽の表情が伝わるようにした部分がポイントです。</span>
+            </a>
+            <a href="#" class="works__contents--link" target="_blank">
+                <div class="works__contents--column">
+                    <div class="works__contents--img"><img src="imgs/create/whats_hobby.png" alt="汝の趣味はなんや?"></div>
+                    <div class="works__contents--txt">
+                        <h3>汝の趣味はなんや?</h3>
+                        <span class="works__contents--about">サークル内のハッカソンで作ったアプリで企画・制作を担当しました。趣味版の人狼ゲームで、他の人の趣味を当てることで参加者が仲良くなることを目的としたアプリです。</span>
+                        <span class="works__contents--more">MORE</span>
+                    </div>
                 </div>
-            </div>
-            <div class="works__contents--column">
-                <div class="works__contents--img"><img src="imgs/create/whats_hobby.png" alt="汝の趣味はなんや?"></div>
-                <div class="works__contents--txt">
-                    <h3>汝の趣味はなんや?</h3>
-                    <span class="works__contents--about">サークル内のハッカソンで作ったアプリです。リーダーとして全体の企画・制作を担当しました。趣味版の人狼ゲームで、他の人の趣味を当てることで参加者が仲良くなることを目的としたアプリです。</span>
+            </a>
+            <a href="https://jack-web.herokuapp.com/" class="works__contents--link" target="_blank">
+                <div class="works__contents--column">
+                    <div class="works__contents--img">
+                        <img src="imgs/create/jack_business_card.jpeg" alt="jackの名刺">
+                    </div>
+                    <div class="works__contents--txt">
+                        <h3>サークルの名刺</h3>
+                        <span class="works__contents--about">私が所属する、アプリ開発団体jackの名刺です。既存のロゴに合わせて使いやすくわかりやすいデザインにしました。表面には個人の情報、裏面には団体の情報が乗っています。</span>
+                        <span class="works__contents--more">MORE</span>
+                    </div>
                 </div>
-            </div>
-            <div class="works__contents--column">
-                <div class="works__contents--img">
-                    <img src="imgs/create/jack_business_card.jpeg" alt="jackの名刺">
-                </div>
-                <div class="works__contents--txt">
-                    <h3>サークルの名刺</h3>
-                    <span class="works__contents--about">私が所属する、<a href="https://jack-web.herokuapp.com/" target="_blank">アプリ・Webサービス開発団体jack</a>の名刺です。既存のロゴに合わせて使いやすくわかりやすいデザインにしました。表面には個人の情報、裏面には団体の情報が乗っています。</span>
-                </div>
-            </div>
+            </a>
         </div>
         <div class="works__contents">
-            <div class="works__contents--column">
-                <div class="works__contents--img">
-                    <img src="imgs/create/shuden.png" alt="終電を逃したら">
+            <a href="https://marvelapp.com/1afda866" class="works__contents--link" target="_blank">
+                <div class="works__contents--column">
+                    <div class="works__contents--img">
+                        <img src="imgs/create/shuden.png" alt="終電を逃したら">
+                    </div>
+                    <div class="works__contents--txt">
+                        <h3>終電を逃したら</h3>
+                        <span class="works__contents--about">終電を逃した・逃しそうな時に使えるアプリのプロトタイプを考えました。実際に私が終電を逃して困ったことや、終電を逃さないための機能を盛り込みました。</span>
+                        <span class="works__contents--more">MORE</span>
+                    </div>
                 </div>
-                <div class="works__contents--txt">
-                    <h3>終電を逃したら</h3>
-                    <span class="works__contents--about">終電を逃した時や逃しそうな時に使えるアプリのプロトタイプを考えました。実際に私が終電を逃した時に困ったことや、終電を逃さないようにあったらよかったなと思う機能を盛り込みました。<br><a href="https://marvelapp.com/1afda866" target="_blank">プロトタイプ</a></span>
+            </a>
+            <a href="https://www.pinterest.jp/pin/668784613395435766/" class="works__contents--link" target="_blank">
+                <div class="works__contents--column">
+                    <div class="works__contents--img"><img src="imgs/create/newyearcard2019.png" alt="年賀状2019"></div>
+                    <div class="works__contents--txt">
+                        <h3>年賀状2019</h3>
+                        <span class="works__contents--about">2019年の年賀状です。私のあだ名である「きなこ」と正月らしいお餅や風雲のモチーフを散りばめ、私からの年賀状だということがひと目でわかるようなデザインにしました</span>
+                        <span class="works__contents--more">MORE</span>
+                    </div>
                 </div>
-            </div>
-            <div class="works__contents--column">
-                <div class="works__contents--img"><img src="imgs/create/newyearcard2019.png" alt="年賀状2019"></div>
-                <div class="works__contents--txt">
-                    <h3>年賀状2019</h3>
-                    <span class="works__contents--about">2019年の最初に作った年賀状です。私のあだ名である「きなこ」と正月らしいお餅や風雲のモチーフを散りばめ、年賀状を手に取った人が私からの年賀状だということがひと目でわかるようなデザインにしました<br><a href="https://www.pinterest.jp/pin/668784613395435766" target="_blank">年賀状全体</a></span>
+            </a>
+            <a href="http://asukaokochi.hatenablog.com/entry/2018/10/07/200000" class="works__contents--link" target="_blank">
+                <div class="works__contents--column">
+                    <div class="works__contents--img">
+                        <img src="imgs/create/pairdesign.png" alt="ペアデザイン">
+                    </div>
+                    <div class="works__contents--txt">
+                        <h3>ペアデザイン</h3>
+                        <span class="works__contents--about">WEBデザイナーとしてスキルアップしたいと思い、始めた取り組みです。ペアで共通のテーマを決め、お互いのデザインをコーディングするというものです。</span>
+                        <span class="works__contents--more">MORE</span>
+                    </div>
                 </div>
-            </div>
-            <div class="works__contents--column">
-                <div class="works__contents--img"><a href="http://asukaokochi.hatenablog.com/entry/2018/10/07/200000" target="_blank">
-                    <img src="imgs/create/pairdesign.png" alt="ペアデザイン"></a>
-                </div>
-                <div class="works__contents--txt">
-                    <h3>ペアデザイン</h3>
-                    <span class="works__contents--about">WEBデザイナーとしてスキルアップしたいと思い、始めた取り組みです。ペアで共通のテーマを決め、お互いのデザインをコーディングするというものです。<a href="http://asukaokochi.hatenablog.com/entry/2018/10/07/200000" target="_blank">詳しくはこちら。</a><br><a href="https://www.pinterest.jp/pin/668784613395435808" target="_blank">デザイン</a> / <a href="https://pairdesign-cafe01-ddck.netlify.com/" target="_blank">コーディング</a></span>
-                </div>
-            </div>
+            </a>
         </div>
         <div class="works__contents">
-            <div class="works__contents--column">
-                <div class="works__contents--img"><img src="imgs/create/design_mokumoku.png" alt="名古屋デザイナーもくもく会"></div>
-                <div class="works__contents--txt">
-                    <h3>名古屋デザイナーもくもく会</h3>
-                    <span class="works__contents--about">名古屋のデザイナーコミュニティを盛り上げたいという思いから企画したイベントです。改善できる部分が多々あるので、もう少し企画や内容を詰め、運営メンバーを集めた上で来年またやりたいです。<br><a href="http://asukaokochi.hatenablog.com/entry/2018/11/04/200000">イベントレポート</a></span>
+            <a href="http://asukaokochi.hatenablog.com/entry/2018/11/04/200000" class="works__contents--link" target="_blank">
+                <div class="works__contents--column">
+                    <div class="works__contents--img"><img src="imgs/create/design_mokumoku.png" alt="名古屋デザイナーもくもく会"></div>
+                    <div class="works__contents--txt">
+                        <h3>名古屋デザイナーもくもく会</h3>
+                        <span class="works__contents--about">名古屋のデザイナーコミュニティを盛り上げたいという思いから企画したイベントです。もう少し企画や内容を詰め、改善した上で再度やりたいです。</span>
+                        <span class="works__contents--more">MORE</span>
+                    </div>
                 </div>
-            </div>
-            <div class="works__contents--column">
-                <div class="works__contents--img">
-                    <a href="index.html" target="_blank">
-                    <img src="imgs/create/hairstyle.png" alt="ヘアスタイル共有SNS">
-                    </a>
+            </a>
+            <a href="#" class="works__contents--link" target="_blank">
+                <div class="works__contents--column">
+                    <div class="works__contents--img">
+                        <img src="imgs/create/hairstyle.png" alt="ヘアスタイル共有SNS">
+                    </div>
+                    <div class="works__contents--txt">
+                        <h3>ヘアスタイル共有SNS</h3>
+                        <span class="works__contents--about">Cocoda!のお題を元に、「ヘアスタイル共有SNSアプリ」のモックアップを作りました。自分の肌の色や頭の形も一緒に共有・検索できるところがポイントです。</span>
+                        <span class="works__contents--more">MORE</span>
+                    </div>
                 </div>
-                <div class="works__contents--txt">
-                    <h3>ヘアスタイル共有SNS</h3>
-                    <span class="works__contents--about">Cocoda!の「ヘアスタイル検索アプリ」というお題を元に、「ヘアスタイル共有SNSアプリ」のモックアップを作りました。自分の肌の色や頭の形も一緒に共有・検索できるところがポイントです。ヘアスタイル限定Instagramのようなイメージです。</span>
+            </a>
+            <a href="#" class="works__contents--link" target="_blank">
+                <div class="works__contents--column">
+                    <div class="works__contents--img">
+                        <img src="imgs/create/banner.png" alt="IntractiveNail">
+                    </div>
+                    <div class="works__contents--txt">
+                        <h3>InteractiveNail</h3>
+                        <span class="works__contents--about">gelatopiqueのバナーを想定して作りました。人物の視線を文字の方向に向けて視線誘導がうまくいくようなレイアウトにしました。</span>
+                        <span class="works__contents--more">MORE</span>
+                    </div>
                 </div>
-            </div>
-
-            <div class="works__contents--column">
-                <div class="works__contents--img">
-                    <img src="imgs/create/banner.png" alt="IntractiveNail">
-                </div>
-                <div class="works__contents--txt">
-                    <h3>InteractiveNail</h3>
-                    <span class="works__contents--about">gelatopiqueのバナーを想定して作りました。服の切り抜きと雰囲気にあった写真を使いました。また、人物の視線を文字の方向に向けて視線誘導がうまくいくようなレイアウトにしました。</span>
-                </div>
-            </div>
+            </a>
         </div>
     </div>
     <footer>2019 &copy; Okochi Asuka</footer>
-    <scirpt src="https://unpkg.com/micromodal/dist/micromodal.min.js"></scirpt>
 </body>
 
 </html>
