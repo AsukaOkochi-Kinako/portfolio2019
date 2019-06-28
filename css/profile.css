@@ -26,7 +26,7 @@
 .profile__txt {
     font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
     word-break: keep-all;
-    width: 80vw;
+    width: 30rem;
     margin: 1rem auto;
     display: -webkit-box;
     display: -ms-flexbox;
