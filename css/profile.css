@@ -102,6 +102,9 @@
 }
 
 @media (max-width:725px) {
+    .profile__txt {
+        width: auto;
+    }
     .profile__sns {
         width: 80vw;
     }
