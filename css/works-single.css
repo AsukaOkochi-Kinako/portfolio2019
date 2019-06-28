@@ -3,6 +3,11 @@
     margin: 0 auto;
 }
 
+.works__single h2 {
+    margin-top: 2.5rem;
+    font-size: 1.5rem;
+}
+
 .works__single h3::before {
     content: '●';
     color: #ff89c7;
@@ -38,6 +43,14 @@
 }
 
 @media (max-width:425px) {
+    .works__single {
+        margin-top: 6.5rem;
+    }
+
+    .works__single h2 {
+        font-size: 1.5rem;
+    }
+
     .works__single--txts {
         -webkit-box-pack: start;
         -ms-flex-pack: start;

@@ -62,8 +62,6 @@
 
 .profile__sns a {
     text-decoration: none;
-    position: relative;
-    overflow: hidden;
 }
 
 .profile__sns a i:hover {
