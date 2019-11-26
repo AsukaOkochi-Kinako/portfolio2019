@@ -18,6 +18,27 @@
     color: #ff89c7;
 }
 
+.prototype {
+    display: block;
+    width: 10rem;
+    margin: 0.5rem auto;
+    background-color: #ff89c7;
+    padding: 0.5rem 1rem;
+    border-radius: 3rem;
+
+    color: #fff !important;
+    text-decoration: none;
+    text-align: center;
+
+    border-bottom: 5px solid #ff5ab1;
+}
+
+.prototype:hover {
+    margin-top: 0.8rem;
+    border: none;
+    text-decoration: none !important;
+}
+
 .works__single a:hover {
     text-decoration: underline;
 }
@@ -40,6 +61,11 @@
 .works__single--txt {
     width: 35vw;
     text-align: left;
+}
+
+.works__single--txt img {
+    width: 100%;
+    margin: 1rem auto;
 }
 
 @media (max-width:425px) {

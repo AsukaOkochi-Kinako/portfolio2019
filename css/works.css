@@ -59,6 +59,8 @@
     color: #333;
     text-decoration: none;
     height: 26.75rem;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
 }
 
 .works__contents--column:hover {
