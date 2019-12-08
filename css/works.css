@@ -145,7 +145,7 @@
     transition-duration: 0.3s;
 }
 
-.prototype {
+.link-this-page {
     display: block;
     width: 10rem;
     margin: 0.5rem auto;
@@ -160,12 +160,32 @@
     border-bottom: 5px solid #ff5ab1;
 }
 
-.prototype:hover {
+.link-this-page:hover {
     margin-top: 0.8rem;
     border: none;
     text-decoration: none !important;
 }
 
+.link-difference-page {
+    display: block;
+    width: 10rem;
+    margin: 0.5rem auto;
+    background-color: #ff89c7;
+    padding: 0.5rem 1rem;
+    border-radius: 3rem;
+
+    color: #fff !important;
+    text-decoration: none;
+    text-align: center;
+
+    border-bottom: 5px solid #ff5ab1;
+}
+
+.link-difference-page:hover {
+    margin-top: 0.8rem;
+    border: none;
+    text-decoration: none !important;
+}
 
 @media (max-width:768px) {
     .works__contents--img img {
