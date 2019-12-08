@@ -145,7 +145,7 @@
     transition-duration: 0.3s;
 }
 
-.link-this-page {
+.link-important {
     display: block;
     width: 10rem;
     margin: 0.5rem auto;
@@ -160,17 +160,17 @@
     border-bottom: 5px solid #ff5ab1;
 }
 
-.link-this-page:hover {
+.link-important:hover {
     margin-top: 0.8rem;
     border: none;
     text-decoration: none !important;
 }
 
-.link-difference-page {
+.link-normal {
     display: block;
     width: 10rem;
     margin: 0.5rem auto;
-    background-color: #ff89c7;
+    background-color: #4cbef4;
     padding: 0.5rem 1rem;
     border-radius: 3rem;
 
@@ -178,10 +178,10 @@
     text-decoration: none;
     text-align: center;
 
-    border-bottom: 5px solid #ff5ab1;
+    border-bottom: 5px solid #40a0ce;
 }
 
-.link-difference-page:hover {
+.link-normal:hover {
     margin-top: 0.8rem;
     border: none;
     text-decoration: none !important;
