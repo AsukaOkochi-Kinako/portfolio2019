@@ -14,6 +14,11 @@
     margin-right: 0.5rem;
 }
 
+.no-deco-h3::before {
+    content: '' !important;
+    margin-right: 0;
+}
+
 .works__single a {
     color: #ff89c7;
 }
@@ -40,6 +45,7 @@
 .works__single--txt {
     width: 35vw;
     text-align: left;
+    font-weight: normal;
 }
 
 .works__single--txt img {
