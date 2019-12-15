@@ -61,6 +61,7 @@
 @media (max-width:425px) {
     .works__single {
         margin-top: 6.5rem;
+        width: 90vw;
     }
 
     .works__single h2 {
@@ -75,6 +76,7 @@
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
+        width: 90vw;
     }
     .works__single--txt {
         width: 100%;
