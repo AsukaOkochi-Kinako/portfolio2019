@@ -80,8 +80,8 @@
 
 .works__contents--column {
     border-radius: 8px;
-    width: 20rem;
-    margin: 0.5rem 0.5rem 0.5rem;
+    width: 20em;
+    margin: 1rem;
     text-align: left;
     -webkit-box-shadow: 1px 2px 6px #ccc;
     box-shadow: 1px 2px 6px #ccc;
@@ -220,9 +220,6 @@
     .works__contents--img img {
         height: 9.5rem;
     }
-    .works__contents--about {
-        font-size: 0.75rem;
-    }
     .works__back--bottom {
         width: 7rem;
         margin: 0 0 1rem 3rem;
@@ -253,9 +250,9 @@
     }
 
     .works__contents--column {
-        margin: 0.5rem auto 0.5rem;
+        margin: 1.5rem auto;
         height: 27.125rem;
-        width: 80vw;
+        width: 85vw;
     }
 
     .works__back {
