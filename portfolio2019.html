@@ -47,35 +47,43 @@
                 <div class="works__single--txt">
                     <h3>どんなポートフォリオ?</h3>
                     自分のことや作品について知ってもらうためのポートフォリオサイトです。<br>
-                    <img src="imgs/create/about/portfolio/new_portfolio.png" alt="新ポートフォリオ"> 私はよく「ふわふわしている」と言われるので、ふわふわとしたモチーフをトップに散りばめ、パステルカラーや丸いフォントを用いることで私の雰囲気を表現しました。
-                    <br>
-                    <br>実装はHTML,CSS,JSを用いて作っており、jQueryを使わないことで少しでも読み込み速度が早くなるように気をつけました。
+                    <img src="imgs/create/about/portfolio/new_portfolio.png" alt="新ポートフォリオ"> 私はよく「<span class="works__single--highlight">ふわふわしている</span>」と言われるので、ふわふわとしたモチーフをトップに散りばめ、パステルカラーや丸いフォントを用いることで私の雰囲気を表現しました。
+                    <br><br>
+                    <h3>何で作ったの?</h3>
+                    デザインは<span class="works__single--highlight">Xd</span>で、パーツは<span class="works__single--highlight">PhotoshopやIllustrator</span>で作りました。イラスト等は手描きの画像を取り込んで使っています。<br><br> 実装はHTML,CSS,JavaScriptを用いて作っています。
+                    <br><br>jQueryを使わないことで<span class="works__single--highlight">少しでも読み込み速度が早くなるよう</span>に気をつけました。
                     <br><br>トップのふわふわとした丸いモチーフは
-                    <a href="https://github.com/tipsy/bubbly-bg">bubbly-bg</a>を用いて表現しました。<br>
+                    <a href="https://github.com/tipsy/bubbly-bg">bubbly-bg</a>を用いて表現しました。<br><br>
                 </div>
                 <div class="works__single--txt">
                     <h3>改善</h3>
                     2018年7月に作成した<a href="https://i-am-asuka.netlify.com/">ポートフォリオサイト</a>の良いところ・改善点を元に今回のポートフォリオサイトを作成しました。<br>
-                    <img src="imgs/create/about/portfolio/old_portfolio.png" alt="旧ポートフォリオ"> まず、前回のポートフォリオサイトは「私らしさ」が足りなかったため、自分らしさを表すことが出来るデザインを作りました。<br>
+                    <img src="imgs/create/about/portfolio/old_portfolio.png" alt="旧ポートフォリオ"> まず、前回のポートフォリオサイトは「私らしさ」が足りなかったため、<span class="works__single--highlight">自分らしさを表すデザイン</span>を作りました。<br>
 
-                    <br> また、個別ページがないことから作品についての詳細が足りなかったり、作品を増やした時にページが長くなってしまうことで見にくくなるなど、作品ページの改善点が多くあったため、現在のような形にしました。<br><br>
+                    <br> また、個別ページがないことから<span class="works__single--highlight">作品についての詳細が足りなかった</span>り、作品を増やした時に<span class="works__single--highlight">ページが長くなってしまう</span>など、作品ページの改善点が多くありました。<br><br> そのため
+                    <ul>
+                        <li>作品ごと個別ページの作成</li>
+                        <li>トップでは厳選した3作品のみ表示</li>
+                    </ul>
+                    といった変更を加えることで、改善を図りました。
                 </div>
             </div>
             <div class="works__single--txts">
                 <div class="works__single--txt">
                     <h3>結果と仮説（2019年6月時点）</h3>
-                    これらの改善を行い、GoogleAnalyticsで公開から1ヶ月の滞在時間や直帰率を見た結果、平均セッション時間は1分37秒から0分58秒に、直帰率は81.89%から65.12%へと変化しました。
+                    前回のポートフォリオと今回のポートフォリオにGoogleAnalyticsを埋め込み、公開から1ヶ月の数値をそれぞれ比較しました。
+                    <br><br>結果、平均セッション時間は<span class="works__single--highlight">1分37秒から0分58秒</span>に、直帰率は<span class="works__single--highlight">81.89%から65.12%</span>へと変化しました。
                     <br>
-                    <img src="imgs/create/about/portfolio/kaizen1.png" alt="改善を数値で見る"><br> セッション継続時間の減少は作品ページから直接作品のリンクへ飛ぶように設定していたことから起こったことだと思うので、今後はこのような作品個別のページを設置することでセッション継続時間が長くなるかどうか見て行こうと思います。
-                    <br><br> 直帰率の減少は恐らく作品一覧のページを作ったことによるものだと思います。トップページから作品一覧のページに移動した人が約50%いるので、今後も作品の質を上げたり個別ページに移動してもらえるような内容にしたりすることで改善を続けていき直帰率を減らしていきたいです。
+                    <img src="imgs/create/about/portfolio/kaizen1.png" alt="改善を数値で見る"><br> セッション継続時間の減少について、一部の作品を直接作品のリンクへ飛ぶように設定していたことから起こったことかと思います。<br><br>今後は<span class="works__single--highlight">全ての作品に個別ページを設置</span>し、セッション継続時間がより長くなるか様子を見ようと思います。
+                    <br><br> 直帰率の減少は恐らく作品一覧のページを作ったことによるものだと思います。<br><br>ただ、トップページから<span class="works__single--highlight">作品一覧のページに移動していない人が約50%いる</span>ことがわかりました。<br><br>今後は、作品一覧ページへ流入してもらいやすい仕組みを作ったり、トップの作品を見てもらえるように工夫するなどして、直帰率を減らしていきたいです。
                 </div>
                 <div class="works__single--txt">
                     <h3>結果と考察（2019年12月時点）</h3>
-                    個別ページの作成と作品のブラッシュアップを行なった結果、セッション継続時間は0分58秒から8分03秒に、直帰率は65.12%から36.36%に改善しました。
+                    個別ページの作成と作品のブラッシュアップを行なった結果、セッション継続時間は<span class="works__single--highlight">0分58秒から8分03秒</span>に、直帰率は<span class="works__single--highlight">65.12%から36.36%</span>に改善しました。
                     <br>
                     <img src="imgs/create/about/portfolio/kaizen2.png" alt="改善を数値で見る">
                     <br> これは、多くの人が作品の個別ページや作品一覧を閲覧し、長く滞在していることが一番大きな要因かと思われます。<br>6月に立てた仮説が検証できてよかったです。
-                    <br><br> また、企業の方にポートフォリオの添削をお願いしたことや友人がじっくりと見てくれたというのも要因の1つかと思われるため、今後も数値をキープもしくは今以上に良くなるように改善を続けていきたいです。
+                    <br><br> また、知り合いがじっくりと見てくれたというのも要因の1つかと思われるため、今後も数値をキープもしくは今以上に良くなるように改善を続けていきたいです。
                 </div>
             </div>
         </div>
