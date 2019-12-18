@@ -198,7 +198,7 @@
 .link-normal {
     display: block;
     width: 10rem;
-    margin: 0rem auto 0.5rem;
+    margin: -1rem auto 0.5rem;
     background-color: #4cbef4;
     padding: 0.5rem 1rem;
     border-radius: 3rem;
@@ -211,7 +211,7 @@
 }
 
 .link-normal:hover {
-    margin-top: 0.3rem;
+    margin-top: -0.7rem;
     border: none;
     text-decoration: none !important;
 }
