@@ -6,3 +6,12 @@ footer {
     padding: 1rem 0;
     font-weight: bold;
 }
+
+footer a {
+    font-weight: normal;
+    color: #ff89c7;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
