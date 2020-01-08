@@ -28,7 +28,7 @@
 }
 
 .works__single--img img {
-    width: 100%;
+    width: 80%;
 }
 
 .works__single--txts {
@@ -59,6 +59,10 @@
 }
 
 @media (max-width:425px) {
+    .works__single--img img {
+        width: 100%;
+    }
+    
     .works__single {
         margin-top: 6.5rem;
         width: 90vw;

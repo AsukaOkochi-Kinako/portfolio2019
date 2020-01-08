@@ -32,6 +32,27 @@ canvas {
     font-weight: bold;
 }
 
+.top__go--contents {
+    position: absolute;
+    right: 1%;
+    left: 1%;
+    bottom: 6rem;
+    color: #ff89c7;
+
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.top__go--contents i {
+    font-size: 4rem;
+}
+
+.top__go--contents:hover {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    opacity: 0.5;
+}
+
 @media (max-width:425px) {
     #top {
         width: 80vw;
